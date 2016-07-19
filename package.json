@@ -2,8 +2,9 @@
   "name": "javascript-unit-test-snippet",
   "version": "1.0.0",
   "description": "VS Code JavaScript Unit Test snippets ",
-	"displayName": "JavaScript Unit Test snippets",
-	"publisher": "izdt",
+  "displayName": "JavaScript Unit Test snippets",
+  "publisher": "iZDT",
+  "icon": "images/jasmine.png",
   "author": "iZDT",
   "license": "MIT",
   	"repository": {
