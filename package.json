@@ -1,0 +1,39 @@
+{
+  "name": "javascript-unit-test-snippet",
+  "version": "1.0.0",
+  "description": "VS Code JavaScript Unit Test snippets ",
+	"displayName": "JavaScript Unit Test snippets",
+	"publisher": "izdt",
+  "author": "iZDT",
+  "license": "MIT",
+  	"repository": {
+		"type": "git",
+		"url": "https://github.com/Simple-Tools/VSCode-unitTestSnippet"
+	},
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}

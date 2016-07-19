@@ -1,0 +1,43 @@
+{
+  "Unit Test Describe": {
+		"prefix": "deb",
+		"body": [
+			"describe ('$1', ()=>{",
+    		"\tit('$2', ()=>{",
+            "\t\t$3",
+    		"\t});",
+			"});"
+		],
+		"description": "Unit Test Description"
+	},
+  "Expect toExist": {
+    "prefix": "ete",
+    "body": "expect(${object}).toExist($1);$0",
+    "description": "Expect toExist"
+  },
+  "Expect toNotExist": {
+    "prefix": "ene",
+    "body": "expect(${object}).toNotExist($1);$0",
+    "description": "Expect toNotExist"
+  },
+  "Expect toBe": {
+    "prefix": "etb",
+    "body": "expect(${object}).toBe($1);$0",
+    "description": "Expect toBe"
+  },
+  "toNotBe": {
+    "prefix": "enb",
+    "body": "expect(${object}).toNotBe($1);$0",
+    "description": "Expect toBe"
+  },
+  "Expect toEqual": {
+    "prefix": "etq",
+    "body": "expect(${object}).toEqual($1);$0",
+    "description": "Expect toEqual"
+  },
+  "Expect toNotEqual": {
+    "prefix": "enq",
+    "body": "expect(${object}).toNotEqual($1);$0",
+    "description": "Expect toEqtoNotEqualual"
+  }
+}
