@@ -1,14 +1,32 @@
 {
-  "Unit Test Describe": {
-		"prefix": "deb",
+  "Unit Test Describe with it": {
+		"prefix": "det",
 		"body": [
-			"describe ('$1', ()=>{",
-    		"\tit('$2', ()=>{",
+			"describe ('$1', () => {",
+    		"\tit('$2', () => {",
             "\t\t$3",
     		"\t});",
 			"});"
 		],
-		"description": "Unit Test Description"
+		"description": "Describe with it"
+	},
+  "Unit Test Describe without it": {
+		"prefix": "deb",
+		"body": [
+			"describe ('$1', () => {",
+          "\t$2",
+			"});"
+		],
+		"description": "Describe without it"
+	},
+  "Unit Test it": {
+		"prefix": "dit",
+		"body": [
+			"it ('$1', () => {",
+          "\t$2",
+			"});"
+		],
+		"description": "Unit Test it"
 	},
   "Expect toExist": {
     "prefix": "ete",

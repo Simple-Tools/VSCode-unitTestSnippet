@@ -15,7 +15,9 @@ Below is a list of all available snippets and the triggers of each one. The **�
 ### Import and export
 | Trigger  | Content |
 | -------: | ------- |
-| `deb→`   | add describe `describe('{description}',()=>{});`|
+| `det→`   | add describe with it `describe('{description}',() => { it('{1}', () => {}) });`|
+| `deb→`   | add describe `describe('{description}',() => {});`|
+| `dit→`   | add it `it('{1}',() => {});`|
 | `ete→`   | add expect `expect({object}).toExist();` |
 | `ene→`   | add expect `expect({object}).toNotExist()` |
 | `etb→`   | add expect `expect({object}).toBe({value})` |
